@@ -7,11 +7,11 @@ import Card3 from './components/card3'
 
 function App() {
   return (
-    <div className="main">
+    <main>
     <Card1 />
     <Card2 />
     <Card3 />
-    </div>
+    </main>
   );
 }
 

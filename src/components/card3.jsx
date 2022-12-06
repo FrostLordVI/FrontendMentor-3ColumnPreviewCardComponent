@@ -7,13 +7,13 @@ class Card3 extends Component {
       return (
         <div className='card card3'>
             
-            <img src={luxury} alt="luxury"/>
+            <img src={luxury} alt="" aria-hidden="true"/>
          
-            <h1>LUXURY</h1>
+            <h2>LUXURY</h2>
 
             <p>Cruise in the best car brands without the bloated prices. Enjoy the enhanced comfort of a luxury rental and arrive in style.</p>
 
-            <button>Learn More</button>
+            <a>Learn More</a>
          
         </div>
       );

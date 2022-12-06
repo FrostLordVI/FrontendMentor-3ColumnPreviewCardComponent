@@ -7,13 +7,13 @@ class Card1 extends Component {
       return (
         <div className='card card1'>
             
-            <img src={sedans} alt="sedans"/>
+            <img src={sedans} alt="" aria-hidden="true"/>
 
-            <h1>SEDANS</h1>
+            <h2>SEDANS</h2>
 
             <p>Choose a sedan for its affordability and excellent fuel economy. Ideal for cruising in the city or an your next road trip.</p>
 
-            <button>Learn More</button>
+            <a>Learn More</a>
          
         </div>
       );
