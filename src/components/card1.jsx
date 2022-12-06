@@ -7,7 +7,7 @@ class Card1 extends Component {
       return (
         <div className='card card1'>
             
-            <img src={sedans} alt="sedans"/>
+            <img src={sedans} alt="" aria-hidden=true/>
 
             <h1>SEDANS</h1>
 
