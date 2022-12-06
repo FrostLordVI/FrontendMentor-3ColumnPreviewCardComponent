@@ -1,0 +1,14 @@
+$VeryDarkCyan: hsl(179, 100%, 13%);
+
+.card3{
+    background-color: $VeryDarkCyan;
+    border-radius: 0 5px 5px 0;
+
+    button{
+        color:$VeryDarkCyan;
+    }
+
+    @media screen and (max-width:800px){
+        border-radius:0 0 5px 5px;
+    }
+}
